@@ -10,7 +10,7 @@ public class SWVersion {
 		String authorX = new String();
 		String stampa = new String();
 		releaseNum = "2";
-		versionNum = "1";
+		versionNum = "3";
 		releaseType = "A";
 		authorA = "MasterEd";
 		authorX = "Ichinose";

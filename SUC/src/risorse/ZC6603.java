@@ -28,7 +28,7 @@ public class ZC6603 {
 		this.newVersion = newVersion;
 	}
 	private String link = "http://fuas.sonymobile.com/fuas/services/updates?clientName=PCC&clientVersion=3.0&lang="
-				+ "en-US&model=C6603&tac_mc=35576205&swId=1269-5309&swVer=10.1.A.1.350&fsVariant=GLOBAL-LTE&cdfVer="
+				+ "en-US&model=C6603&tac_mc=35576205&swId=0000-9999&swVer=10.1.A.1.350&fsVariant=GLOBAL-LTE&cdfVer="
 				+ "R1A&buildVariant=USER&clientCertType=live&updateFormat=delta,image&channel=cable&cdfId=";
 	public String getState(){
 		return state;
