@@ -8,6 +8,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JPanel;
+import javax.swing.JProgressBar;
 
 @SuppressWarnings("serial")
 public class BPannello extends JPanel {
@@ -15,7 +16,9 @@ public class BPannello extends JPanel {
 	JButton bLoad = new JButton("Load");
 	JButton bUpdate = new JButton("Update");
 	JComboBox<String> box = new JComboBox<>();
+	public JProgressBar progressBar ;
 	public BPannello(){
+		progressBar = new JProgressBar();
 		
 		//setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
 		bClose.setPreferredSize(new Dimension(100, 30));
@@ -35,6 +38,8 @@ public class BPannello extends JPanel {
 		FlowLayout pan = new FlowLayout();
 		pan.setAlignment(FlowLayout.RIGHT);
 		setLayout(pan);
+		
+		add(progressBar);
 		
 		add(bUpdate);
 		add(box);
